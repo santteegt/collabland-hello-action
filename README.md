@@ -64,9 +64,9 @@ interactions.
    npm run client -- <server-signing-key>
    ```
 
-## Build your own action
+## Build your own action (application.ts > component.ts > actions/*.controller.ts)
 
-1. Use `src/hello-action.ts` as the template
+1. Use `src/actions/hello-action.controller.ts` as the template
 2. Define action metadata for Discord
 3. Implement the `handle()` method
    - Process various Discord interactions
